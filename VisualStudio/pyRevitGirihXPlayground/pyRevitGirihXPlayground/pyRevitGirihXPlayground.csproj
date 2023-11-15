@@ -349,7 +349,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>if exist "$(SolutionDir)\..\..\pyRevitGirihXPlayground.extension\bin\GirihX" copy "$(ProjectDir)$(OutputPath)*.dll" "$(SolutionDir)\..\..\pyRevitGirihXPlayground.extension\bin\GirihX"</PostBuildEvent>
+    <PostBuildEvent>if exist "$(SolutionDir)\..\..\pyRevitGirihXPlayground.extension\lib\GirihX" copy "$(ProjectDir)$(OutputPath)*.dll" "$(SolutionDir)\..\..\pyRevitGirihXPlayground.extension\lib\GirihX"</PostBuildEvent>
   </PropertyGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

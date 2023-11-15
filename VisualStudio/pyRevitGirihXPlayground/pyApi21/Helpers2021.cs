@@ -18,7 +18,7 @@ namespace pyApi21
                 ForgeTypeId[] unitOptions = new ForgeTypeId[] 
                 { UnitTypeId.Meters, UnitTypeId.Centimeters, UnitTypeId.Millimeters, UnitTypeId.Feet };
 
-                string[] UnitsNames = unitOptions.Select(i => i.TypeId.Length.ToString()).ToArray();
+                string[] UnitsNames = unitOptions.Select(i => i.TypeId).ToArray();
                 UnitOptions = unitOptions;
                 CurrentUnit = currentUnit;
                 return UnitsNames;
