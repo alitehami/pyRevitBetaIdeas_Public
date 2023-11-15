@@ -1,0 +1,18 @@
+{
+    "builtin": "False",
+    "default_enabled": "True",
+    "type": "extension",
+    "rocket_mode_compatible": "True",
+    "name": "Girih X Playground",
+    "description": "Girih X pyRevit InvokeButtons Palyground",
+    "author": "Ali Tehami",
+    "author_profile": "https://www.linkedin.com/in/alitehami/",
+    "url": "https://www.linkedin.com/in/alitehami/",
+    "website": "https://girihx.com",
+    "image": "",
+    "templates": {
+        "author": "Ali Tehami, info@girihx.com, GIRIH X Pty Ltd",
+        "docpath": "https://www.youtube.com/watch?v="
+    },
+    "dependencies": []
+}

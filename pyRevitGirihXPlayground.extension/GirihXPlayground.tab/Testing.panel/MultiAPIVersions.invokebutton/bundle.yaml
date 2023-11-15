@@ -1,0 +1,6 @@
+assembly: GirihX/pyRevitGirihXPlayground.dll
+command_class: Command
+context: zero-doc
+tooltip: Test Command for pyRevitGirihXPlayground
+author: Ali Tehami - GIRIH X
+title: "Multi-API\nVersions"
